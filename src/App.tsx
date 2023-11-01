@@ -1,18 +1,16 @@
 import { useEffect, useState } from "react"
 import Navbar from '@/components/navbar'
-import { SelectedPage } from "./shared/types";
+import { SelectedPage } from "@/shared/types";
 
-// enum SelectedPage {
-//   Home = "home",
-//   Benefits = "benefits",
-//   OurClasses = "outclasses",
-//   ContactUs
-// }
+enum SelectedPage {
+  Home = "home",
+  Benefits = "benefits",
+  OurClasses = "outclasses",
+  ContactUs = "contactus"
+}
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState<SelectedPage>(
-    SelectedPage.Home
-  );
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
 
   useEffect(() => {
@@ -34,7 +32,7 @@ function App() {
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
-      />
+    />
       
     </div>
   )
