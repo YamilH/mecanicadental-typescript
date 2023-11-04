@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar'
 import Home from "@/components/home";
 
 import { SelectedPage } from "@/shared/types";
+import Contact from "./components/contact";
 
 enum SelectedPage {
   Home = "home",
@@ -35,7 +36,10 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
     />
-    <Home />      
+    <Home setSelectedPage={setSelectedPage}/>
+
+    <Contact setSelectedPage={setSelectedPage}/>
+      
     </div>
   )
 }
