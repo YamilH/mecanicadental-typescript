@@ -1,9 +1,9 @@
 
 import HomePageText from "@/assets/HomePageText.png";
 
-type Props = {}
+// type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <>
       
