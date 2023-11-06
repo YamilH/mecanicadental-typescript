@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react"
 import Navbar from '@/components/navbar'
 import Home from "@/components/home";
+import Works from "./components/works";
+import Experience from "./components/experience";
+import Faq from "./components/faq";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 import { SelectedPage } from "@/shared/types";
-import Contact from "./components/contact";
-import Faq from "./components/faq";
-import Footer from "./components/footer";
+import Benefits from "./components/benefits";
 
 enum SelectedPage {
   Home = "inicio",
@@ -39,6 +42,10 @@ function App() {
         setSelectedPage={setSelectedPage}
     />
     <Home setSelectedPage={setSelectedPage}/>
+
+    <Works setSelectedPage={setSelectedPage}/>
+
+    <Benefits setSelectedPage={setSelectedPage}/>
 
     <Faq setSelectedPage={setSelectedPage}/>
 
