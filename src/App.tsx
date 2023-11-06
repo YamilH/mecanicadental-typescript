@@ -5,6 +5,7 @@ import Home from "@/components/home";
 import { SelectedPage } from "@/shared/types";
 import Contact from "./components/contact";
 import Faq from "./components/faq";
+import Footer from "./components/footer";
 
 enum SelectedPage {
   Home = "inicio",
@@ -42,7 +43,9 @@ function App() {
     <Faq setSelectedPage={setSelectedPage}/>
 
     <Contact setSelectedPage={setSelectedPage}/>
-      
+    
+    <Footer />
+
     </div>
   )
 }
