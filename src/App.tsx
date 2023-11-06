@@ -4,12 +4,13 @@ import Home from "@/components/home";
 
 import { SelectedPage } from "@/shared/types";
 import Contact from "./components/contact";
+import Faq from "./components/faq";
 
 enum SelectedPage {
-  Home = "home",
+  Home = "inicio",
   Benefits = "benefits",
-  OurClasses = "outclasses",
-  ContactUs = "contactus"
+  Faq = "preguntas frecuentes",
+  Contact = "contact"
 }
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
         setSelectedPage={setSelectedPage}
     />
     <Home setSelectedPage={setSelectedPage}/>
+
+    <Faq setSelectedPage={setSelectedPage}/>
 
     <Contact setSelectedPage={setSelectedPage}/>
       
