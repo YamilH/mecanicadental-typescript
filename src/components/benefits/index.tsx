@@ -7,27 +7,27 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import BenefitsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 import Benefit from "./Benefit";
 
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "Técnica Dental",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "PLUSS Consultorios Odontologicos y Laboratorio. Protesis fijas, removibles. Ortodoncia. Diseño Digital EXOCAD, Inlab y CEREC",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Docente",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Curso de Asistente Dental. IMD Instituto de Mecánica Dental",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
+    title: "Técnica Superior en Prótesis Dentales",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "IMD Instituto de Mecánica Dental, (Rosario, Santa Fe) 2016.",
   },
 ];
 
@@ -44,7 +44,7 @@ type Props = {
 
 const Benefits = ({ setSelectedPage }: Props) => {
   return (
-    <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="experiencia" className="mx-auto min-h-full w-5/6 py-20">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
@@ -60,11 +60,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST GYM.</HText>
+          <HText>EXPERIENCIA</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            Soy una persona con iniciativa, me gusta trabajar en equipo, aprender cosas nuevas, así como desempeñarme de forma organizada y responsable. Actualmente me encuentro desarrollando mi perfil de emprendedora con el objetivo de relacionarme con profesionales afines a mi actividad para así poder mejorar día a día.
           </p>
         </motion.div>
 

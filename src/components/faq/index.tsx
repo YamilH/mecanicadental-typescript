@@ -48,7 +48,7 @@ const accordionData = [
   // },
 ]
   return (
-    <section id="preguntas frecuentes" className="mx-auto w-5/6 pt-24 pb-32">
+    <section id="preguntasfrecuentes" className="mx-auto w-5/6 pt-24 pb-32">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Faq)}
       >
