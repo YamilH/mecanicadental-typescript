@@ -16,9 +16,9 @@ const Faq = ({ setSelectedPage }: Props) => {
 
   
 // eslint-disable-next-line react-hooks/rules-of-hooks
-const [open, setOpen] = useState(false);
+const [open, setOpen] = useState<number | null>(null);
 
-const toggle = (index) => {
+const toggle = (index: number | null) => {
   if (open === index) {
     return setOpen(null)
   }
@@ -96,7 +96,8 @@ const accordionData = [
                   open={index === open} 
                   title={data.title} 
                   desc={data.desc} 
-                  toggle={()=>toggle(index)}/>
+                  toggle={()=>toggle(index)}
+                  />
                   );
                 })}
 
