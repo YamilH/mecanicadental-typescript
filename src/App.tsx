@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 
 import { SelectedPage } from "@/shared/types";
+import Whatsapp from "./components/whatsapp";
 
 
 enum SelectedPage {
@@ -41,6 +42,9 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
     />
+
+    <Whatsapp />
+
     <Home setSelectedPage={setSelectedPage}/>
 
     <Works setSelectedPage={setSelectedPage}/>
