@@ -11,12 +11,12 @@ import { SelectedPage } from "@/shared/types";
 import Whatsapp from "./components/whatsapp";
 
 
-enum SelectedPage {
-  Home = "inicio",
-  Benefits = "benefits",
-  Faq = "preguntas frecuentes",
-  Contact = "contact"
-}
+// enum SelectedPage {
+//   Home = "inicio",
+//   Benefits = "benefits",
+//   Faq = "preguntas frecuentes",
+//   Contact = "contact"
+// }
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
