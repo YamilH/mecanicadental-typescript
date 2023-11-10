@@ -18,3 +18,59 @@ body,
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
+
+
+/* Whatapp */
+
+.btn-wsp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:75px;
+  right:8px;
+  color:#fff;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  z-index:99;
+  transition: all 300ms ease;
+  animation: slidein 2s ease-out infinite;
+}
+
+.btn-wsp:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #2fba43;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.7;
+  right:0px;
+}
+.btn-wsp:before{
+  animation: pulse 2s ease-out infinite;
+
+}
+
+@keyframes pulse{
+  100%{
+      transform: scale(1.4);
+      opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    transform: translatey(0%);
+  }
+
+  50% {
+    transform: translatey(10%);
+  }
+  
+  100% {
+    transform: translatey(0%);
+  }
+}
