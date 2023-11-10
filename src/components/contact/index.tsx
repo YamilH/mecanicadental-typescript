@@ -16,7 +16,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   return (
     <section id="contacto" className="mx-auto w-5/6 pt-24 pb-32">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Contact)}
       >
         {/* HEADER */}
         <motion.div
@@ -52,7 +52,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54500.627364047774!2d-58.041621449999994!3d-31.378588099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8093e560701%3A0x5d1d34b223a6f091!2sConcordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1699128329309!5m2!1ses-419!2sar" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54500.627364047774!2d-58.041621449999994!3d-31.378588099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8093e560701%3A0x5d1d34b223a6f091!2sConcordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1699128329309!5m2!1ses-419!2sar" width="100%" height="450" allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             
           </motion.div>
 
