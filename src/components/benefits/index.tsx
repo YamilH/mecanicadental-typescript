@@ -110,8 +110,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">FIT</span>
+                    VISITÁ NUESTRA{" "}
+                    <span className="text-primary-500">TIENDA</span>
                   </HText>
                 </motion.div>
               </div>
@@ -148,7 +148,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
                 <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
+                  Insumos/Tienda
                 </ActionButton>
               </div>
             </div>
