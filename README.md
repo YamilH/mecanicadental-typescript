@@ -1,27 +1,70 @@
-# React + TypeScript + Vite
+# Victoria Técnica Dental
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a vite project for a dental technician
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is a scheme for a dental technician website.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Project Structure
 
-- Configure the top-level `parserOptions` property like this:
+The project follows a specific directory structure to organize the client-side and server-side code. Here's an overview of the directory structure:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```.
+├─── src
+│     ├── assets
+│     ├── components
+│     │    ├── benefits
+│     │    │     ├── Benefit.tsx
+│     │    │     └── index.tsx
+│     │    ├── contact
+│     │    │     └── index.tsx
+│     │    ├── faq
+│     │    │     ├── AccordionItem.tsx
+│     │    │     └── index.tsx
+│     │    ├── footer
+│     │    │     └── index.tsx
+│     │    ├── home
+│     │    │     └── index.tsx
+│     │    ├── navbar
+│     │    │     ├── index.tsx
+│     │    │     └── Link.tsx
+│     │    ├── whatsapp
+│     │    │     └── index.tsx
+│     │    └── works
+│     │          ├── Class.tsx
+│     │          └── index.tsx
+│     ├── hooks
+│     │    └── useMediaQuery.ts
+│     ├── shared
+│     │    ├── ActionButton.tsx
+│     │    ├── HText.tsx
+│     │    └── types.ts
+│     ├── App.tsx
+│     ├── index.css
+│     ├── main.tsx
+│     └── vite-end.d.ts
+├── .eslintrc.cjs
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── prettier.config.cjs
+├── README.md
+├── tailwind.config.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Deployment
+
+The deploy is made in Netlify.
+
+
+
+## Conclusion
+
+Victoria Tecnica Dental was a freelance project, there is a plan in the future to expand the commerce aspect of the website.
