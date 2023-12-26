@@ -3,9 +3,12 @@ import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HomePageText from "@/assets/HomePageText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorColtene from "@/assets/SponsorColtene.png";
-import Sponsor3M from "@/assets/Sponsor3M.png";
-import SponsorIvoclar from "@/assets/SponsorIvoclar.png";
+import SponsorAcritone from "@/assets/acritone.png";
+import SponsorDrillco from "@/assets/drillco.png";
+import SponsorEgeo from "@/assets/egeo.png";
+import SponsorLeone from "@/assets/leone.png";
+import SponsorMorelli from "@/assets/morelli.png";
+import SponsorVeracril from "@/assets/veracril.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -44,7 +47,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Servicios Dentales. Mecanica Dental. Venta de insumos en nuestra tienda, mirá nuestro catálogo. Antes de contactarnos mirá la sección de preguntas frecuentes. Gracias por elegirnos. Contactanos !
+              Servicios Dentales. Mecanica Dental. Proximamente venta de insumos en nuestra tienda. Antes de contactarnos mirá la sección de preguntas frecuentes. Gracias por elegirnos. Contactanos !
             </p>
           </motion.div>
 
@@ -61,14 +64,14 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <ActionButton setSelectedPage={setSelectedPage}>
-              Join Now
+            Contactanos!
             </ActionButton>
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.Contact)}
               href={`#${SelectedPage.Contact}`}
             >
-              <p>Learn More</p>
+              {/* <p>Learn More</p> */}
             </AnchorLink>
           </motion.div>
         </div>
@@ -87,9 +90,12 @@ const Home = ({ setSelectedPage }: Props) => {
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-4/6">
             <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="coltene-sponsor" src={SponsorColtene} />
-              <img alt="3m-sponsor" src={Sponsor3M} />
-              <img alt="ivoclar-sponsor" src={SponsorIvoclar} />
+              <img alt="Acritone-sponsor" src={SponsorAcritone} />
+              <img alt="Drillco-sponsor" src={SponsorDrillco} />
+              <img alt="Egeo-sponsor" src={SponsorEgeo} />
+              <img alt="Leone-sponsor" src={SponsorLeone} />
+              <img alt="Morelli-sponsor" src={SponsorMorelli} />
+              <img alt="Veracril-sponsor" src={SponsorVeracril} />
             </div>
           </div>
         </div>

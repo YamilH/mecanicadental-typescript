@@ -1,10 +1,9 @@
 import { SelectedPage, ClassType } from "@/shared/types";
-import image1 from "@/assets/image1.jpg";
-import image2 from "@/assets/image2.jpg";
-import image3 from "@/assets/image1.jpg";
-import image4 from "@/assets/image2.jpg";
-import image5 from "@/assets/image1.jpg";
-import image6 from "@/assets/image2.jpg";
+import image1 from "@/assets/protesisacrilica.jpg";
+import image2 from "@/assets/placaderelajacion.jpg";
+import image3 from "@/assets/ortodoncia.jpg";
+import image4 from "@/assets/placasdecontencion.jpg";
+import image5 from "@/assets/protectores.jpg";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Class";
@@ -12,40 +11,34 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Prótesis",
+    name: "Prótesis Acrílica",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image1,
   },
   {
-    name: "Ortodoncia",
+    name: "Placa de Relajación",
     description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image2,
   },
   {
-    name: "Dientes",
+    name: "Ortodoncia",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image3,
   },
   {
-    name: "Presupuesto",
+    name: "Placa de Contención",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image4,
   },
   {
-    name: "Presupuesto",
+    name: "Protectores",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image5,
-  },
-  {
-    name: "Presupuesto",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image6,
   },
 ];
 
@@ -74,15 +67,19 @@ const Works = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>TRABAJOS</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+            Todo en acrílicos y alambres
+
+            Prótesis acrílicas e inyectadas
+
+            Todo tipo de placas de relajación y protectores bucales
+
+            Ortodoncia
+
             </p>
           </div>
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-          <ul className="w-[2800px] whitespace-nowrap">
+          <ul className="w-[1400px] whitespace-nowrap">
             {classes.map((item: ClassType, index) => (
               <Class
                 key={`${item.name}-${index}`}
