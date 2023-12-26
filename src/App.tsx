@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Navbar from '@/components/navbar'
 import Home from "@/components/home";
 import Works from "./components/works";
-import Benefits from "./components/benefits";
+// import Benefits from "./components/benefits";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
@@ -49,7 +49,7 @@ function App() {
 
     <Works setSelectedPage={setSelectedPage}/>
 
-    <Benefits setSelectedPage={setSelectedPage}/>
+    {/* <Benefits setSelectedPage={setSelectedPage}/> */}
 
     <Faq setSelectedPage={setSelectedPage}/>
 

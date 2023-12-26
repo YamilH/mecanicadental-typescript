@@ -34,7 +34,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">CONTACTANOS</span> PARA CRECER JUNTOS
           </HText>
           <p className="my-5">
-            Nuestro telefono es 213132123. Nuestro mail es victoriatecnicadental@gmail.com. Nos encontramos en la ciudad de Concordia, Entre Ríos y realizamos envios a toda la provincia y fuera del país, consultanos!.
+            Nuestro telefono es 341-153-052720. Nuestro mail es victoria.tecnica.dental@gmail.com. Nos encontramos en la ciudad de Concordia, Entre Ríos y realizamos envios a toda la provincia y fuera del país, consultanos!.
           </p>
         </motion.div>
 
