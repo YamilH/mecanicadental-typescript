@@ -13,31 +13,31 @@ const classes: Array<ClassType> = [
   {
     name: "Prótesis Acrílica",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Diseñadas para brindar comodidad y funcionalidad, nuestras prótesis acrílicas garantizan durabilidad.",
     image: image1,
   },
   {
     name: "Placa de Relajación",
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Experimenta alivio instantáneo con nuestras placas de relajación personalizadas y ergonómicas.",
     image: image2,
   },
   {
     name: "Ortodoncia",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Logra una sonrisa perfecta con nuestro tratamiento de ortodoncia avanzado y discreto.",
     image: image3,
   },
   {
     name: "Placa de Contención",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Manten la forma de tu sonrisa con nuestras placas de contención cómodas y efectivas.",
     image: image4,
   },
   {
     name: "Protectores",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Protege tu salud bucal con nuestros protectores diseñados para garantizar seguridad y confort.",
     image: image5,
   },
 ];
