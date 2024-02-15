@@ -28,15 +28,15 @@ const toggle = (index: number | null) => {
 const accordionData = [
   {
     title: "¿Qué tipo de métodos de pagos hay?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eius quasi eveniet amet beatae! Ullam laborum suscipit molestiae, iure at provident totam in eaque cupiditate dignissimos repellat? Molestias nostrum ut, quisquam, qui laborum delectus impedit repellat reiciendis, labore quo distinctio.",
+    desc: "Por el momento: efectivo y transferencias bancarias, en el futuro habrá otros métodos de pago.",
   },
   {
-    title: "Si la inflamación se va, ¿el dolor vuelve?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eius quasi eveniet amet beatae! Ullam laborum suscipit molestiae, iure at provident totam in eaque cupiditate dignissimos repellat?.",
+    title: "¿Hay descuentos para pagos adelantados?",
+    desc: "Posiblemente, consulta disponibilidad.",
   },
   {
-    title: "¿Es Messi el mejor ser humano que existe?",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eius quasi eveniet amet beatae! Ullam laborum suscipit molestiae, iure at provident totam in eaque cupiditate dignissimos repellat? .",
+    title: "¿Cuándo debo realizar el pago completo?",
+    desc: " Antes de la entrega final.",
   },
   // {
   //   title: "El director de cine Nolan, ¿es un idiota?",

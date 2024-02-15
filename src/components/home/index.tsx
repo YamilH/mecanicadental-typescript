@@ -9,7 +9,7 @@ import SponsorEgeo from "@/assets/egeo.png";
 import SponsorLeone from "@/assets/leone.png";
 import SponsorMorelli from "@/assets/morelli.png";
 import SponsorVeracril from "@/assets/veracril.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -64,15 +64,15 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <ActionButton setSelectedPage={setSelectedPage}>
-            Contactanos!
+              Contactanos!
             </ActionButton>
-            <AnchorLink
+
+            {/* <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-              onClick={() => setSelectedPage(SelectedPage.Contact)}
-              href={`#${SelectedPage.Contact}`}
+              onClick={() => setSelectedPage(SelectedPage.Contacto)}
             >
-              {/* <p>Learn More</p> */}
-            </AnchorLink>
+              Contactanos!
+            </AnchorLink> */}
           </motion.div>
         </div>
 
