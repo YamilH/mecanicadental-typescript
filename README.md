@@ -4,7 +4,7 @@
 
 This project is a vite project for a dental technician
 
-It is a scheme for a dental technician website.
+It is a scheme for a dental technician website. 
 
 
 ## Project Structure
